@@ -1,0 +1,36 @@
+<div class="row">
+  <div class="col-md-8 px-4 py-4">
+    <app-hero-main></app-hero-main>
+    <div class="py-3">
+      <app-movie-listing
+        [title]="'Trending'"
+        [items]="trendingMovies"
+        [viewMoreRoute]="'/trending'"
+      ></app-movie-listing>
+    </div>
+    <div class="py-3">
+      <app-movie-listing
+        [title]="'Upcoming'"
+        [items]="upcomingMovies"
+        [viewMoreRoute]="'/upcoming'"
+      ></app-movie-listing>
+    </div>
+    <div class="py-3">
+      <app-movie-listing
+        [title]="'TV Series'"
+        [items]="trendingTvSeries"
+        [viewMoreRoute]="'/tv-series'"
+      ></app-movie-listing>
+    </div>
+    <div class="py-3">
+      <app-movie-listing
+        [title]="'Popular Movies on september'"
+        [items]="popularMovies"
+        [viewMoreRoute]="'/popular'"
+      ></app-movie-listing>
+    </div>
+  </div>
+  <div class="col-md-4 py-4">
+    <app-sidebar-right></app-sidebar-right>
+  </div>
+</div>

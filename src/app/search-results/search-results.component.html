@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-md-8 px-4 py-4">
+    <div class="py-3">
+      <app-movie-listing
+        [title]="'Search Result'"
+        [items]="movies"
+        [viewMoreRoute]="''"
+        class="movies-list-many"
+      ></app-movie-listing>
+    </div>
+  </div>
+  <div class="col-md-4 py-4">
+    <app-sidebar-right></app-sidebar-right>
+  </div>
+</div>

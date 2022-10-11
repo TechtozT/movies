@@ -1,0 +1,17 @@
+.vertical-banner .banner {
+  background-color: #191919;
+  border-radius: 30px;
+}
+
+.banner-icon-round {
+  background-color: #2c6865;
+  color: #3dd2cc;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  top: calc(-30px - 1rem);
+}
+
+.banner-body {
+  color: #bfbfbf;
+}

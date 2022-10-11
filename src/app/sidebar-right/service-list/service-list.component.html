@@ -1,0 +1,19 @@
+<div class="d-flex justify-content-between py-4">
+  <div class="text-lg font-weight-bold">Services</div>
+  <a class="link-default text-default">Uncheck all</a>
+</div>
+<div class="bg-default right-sidebar-wrapper p-3">
+  <div class="mat-selection">
+    <mat-selection-list #services>
+      <mat-list-option
+        class="mat-list-item"
+        *ngFor="let service of movieServices"
+      >
+        {{ service }}
+      </mat-list-option>
+    </mat-selection-list>
+  </div>
+  <div class="text-center w-100 pt-3">
+    <a routerLink="/categories" class="link-default text-default">See more</a>
+  </div>
+</div>

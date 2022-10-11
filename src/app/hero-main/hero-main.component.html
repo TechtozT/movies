@@ -1,0 +1,19 @@
+<div
+  class="d-flex flex-column justify-content-between hero p-3 mb-5"
+  [style.background-image]="getMovieImagePath(latestMovie.poster_path)"
+>
+  <div class="flex-grow-1"></div>
+  <div class="d-flex">
+    <div class="flex-grow-1"></div>
+    <div class="hero-buttons">
+      <button mat-flat-button class="mr-3 btn-inside">
+        <mat-icon class="mr-2">play_arrow</mat-icon>
+        <span>Play</span>
+      </button>
+      <button mat-flat-button class="btn-inside">
+        <mat-icon class="mr-2">info</mat-icon>
+        <span>More Info</span>
+      </button>
+    </div>
+  </div>
+</div>

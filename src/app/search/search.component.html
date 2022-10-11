@@ -1,0 +1,14 @@
+<div style="position: relative">
+  <div class="d-inline" style="position: absolute; z-index: 4">
+    <mat-icon class="search-icon" style="color: #666666">search</mat-icon>
+  </div>
+  <div class="d-inline">
+    <input
+      [(ngModel)]="query" name="search"
+      (keyup.enter)="search()"
+      class="main-search"
+      type="text"
+      placeholder="Search for Movies, TV Shows..."
+    />
+  </div>
+</div>
